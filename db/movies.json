@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Get Out",
+    "year": 2017,
+    "leading_actor_actress": "Daniel Kaluuya",
+    "awards": [
+      "Academy Award for Best Original Screenplay",
+      "MTV Movie & TV Award for Best Actor in a Movie"
+    ]
+  },
+  {
+    "name": "A Quiet Place",
+    "year": 2018,
+    "leading_actor_actress": "Emily Blunt",
+    "awards": [
+      "Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role"
+    ]
+  },
+  {
+    "name": "The Conjuring 2",
+    "year": 2016,
+    "leading_actor_actress": "Vera Farmiga",
+    "awards": []
+  },
+  {
+    "name": "It",
+    "year": 2017,
+    "leading_actor_actress": "Bill Skarsgård",
+    "awards": ["MTV Movie & TV Award for Best Villain"]
+  },
+  {
+    "name": "Hereditary",
+    "year": 2018,
+    "leading_actor_actress": "Toni Collette",
+    "awards": [
+      "Fangoria Chainsaw Award for Best Actress",
+      "Empire Award for Best Horror"
+    ]
+  },
+  {
+    "name": "A Quiet Place Part II",
+    "year": 2020,
+    "leading_actor_actress": "Emily Blunt",
+    "awards": [
+      "Critics' Choice Movie Award for Best Actress in a Science Fiction/Fantasy Movie"
+    ]
+  },
+  {
+    "name": "The Witch",
+    "year": 2015,
+    "leading_actor_actress": "Anya Taylor-Joy",
+    "awards": ["Empire Award for Best Horror"]
+  },
+  {
+    "name": "Don't Breathe",
+    "year": 2016,
+    "leading_actor_actress": "Stephen Lang",
+    "awards": []
+  },
+  {
+    "name": "The Babadook",
+    "year": 2014,
+    "leading_actor_actress": "Essie Davis",
+    "awards": []
+  },
+  {
+    "name": "It Follows",
+    "year": 2014,
+    "leading_actor_actress": "Maika Monroe",
+    "awards": []
+  }
+]
