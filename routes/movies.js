@@ -4,11 +4,11 @@ import * as controllers from "../controllers/movies.js";
 
 const router = Router();
 
-router.get("/", controllers.getmovies);
-router.get("/movies/:id", controllers.getmovies);
+router.get("/", controllers.getMovies);
+router.get("/:id", controllers.getMovie);
 router.post("/", controllers.createMovies);
-router.put("/movies/:id", controllers.updateMovies);
-router.delete("/movies/:id", controllers.deleteMovies);
+router.put("/:id", controllers.updateMovie);
+router.delete("/:id", controllers.deleteMovie);
 //Define my routes
 
 export default router;

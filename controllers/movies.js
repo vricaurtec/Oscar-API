@@ -1,8 +1,8 @@
 import Movies from "../models/Movies.js";
 
-export const getmovies = async (req, res) => {
+export const getMovies = async (req, res) => {
   try {
-    const movies = await Movies.find({});
+    const movies = await Movies.find();
     res.json(movies);
   } catch (error) {
     console.error(error);
@@ -10,13 +10,13 @@ export const getmovies = async (req, res) => {
   }
 };
 
-export const getmovie = async (req, res) => {
+export const getMovie = async (req, res) => {
   try {
     const { id } = req.params;
-    const movies = await Movies.findById(id);
+    const movie = await Movies.findById(id);
 
-    if (movies) {
-      return res.json(movies);
+    if (movie) {
+      return res.json(movie);
     }
 
     res.status(404).json({ message: "movies not found!" });
@@ -37,19 +37,19 @@ export const createMovies = async (req, res) => {
   }
 };
 
-export const updateMovies = async (req, res) => {
+export const updateMovie = async (req, res) => {
   try {
     const { id } = req.params;
-    const movies = await Awards.findByIdAndUpdate(id, req.body);
+    const movie = await Movies.findByIdAndUpdate(id, req.body);
 
-    res.status(201).json(movies);
+    res.status(201).json(movie);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: error.message });
   }
 };
 
-export const deleteMovies = async (req, res) => {
+export const deleteMovie = async (req, res) => {
   try {
     const { id } = req.params;
     const deleted = await Movies.findByIdAndDelete(id);
