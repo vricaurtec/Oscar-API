@@ -3,6 +3,8 @@ import Movies from "../models/Movies.js";
 import movies from "../db/movies.json" assert { type: "json" };
 import chalk from "chalk";
 
+connectionString = process.env.DB_URL;
+
 const insertData = async () => {
   //Reset database
   await db.dropDatabase();

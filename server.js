@@ -6,6 +6,7 @@ import logger from "morgan";
 import chalk from "chalk";
 
 const app = express();
+let server = app.listen(process.env.PORT);
 const PORT = 3000;
 
 app.use(express.json());
